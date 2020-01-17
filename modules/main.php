@@ -5,5 +5,5 @@ $app = App::getInstance();
 
 $app->add('main', [], function (){
     $view = import('view');
-    echo $view->render('index.html.twig', ['title' => 'Amd framework', 'content' => 'Welcome. You can with AmdPHP framework']);
+    echo $view->render('index.html.twig');
 });

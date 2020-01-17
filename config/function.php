@@ -22,3 +22,18 @@ function app()
 {
     \core\App::getInstance()->run();
 }
+
+function title()
+{
+    return \tools\implementation\Page::getInstance()->doAction('title');
+}
+
+function style()
+{
+    return \tools\implementation\Page::getInstance()->doAction('style');
+}
+
+function content()
+{
+    return \tools\implementation\Page::getInstance()->doAction('content');
+}

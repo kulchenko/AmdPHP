@@ -9,6 +9,7 @@
             "tools\\": "tools"
         },
         "files": [
+            "config/action.php",
             "config/system.php",
             "config/function.php"
         ]

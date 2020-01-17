@@ -17,6 +17,7 @@ namespace tools\implementation;
 use tools\rules\IView;
 use Twig\Environment;
 use Twig\Loader\FilesystemLoader;
+use Twig\TwigFunction;
 
 class ViewTwig implements IView
 {
@@ -30,6 +31,9 @@ class ViewTwig implements IView
             'cache' => $path . '/view/cache/twig',
             'debug' => true
         ]);
+        $this->twig->addFunction(new TwigFunction('style', 'style'));
+        $this->twig->addFunction(new TwigFunction('content', 'content'));
+        $this->twig->addFunction(new TwigFunction('title', 'title'));
     }
 
     public function render($filename, array $params = [])
