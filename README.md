@@ -27,7 +27,7 @@ If you have changed files or added new ones, do not forget to run the `composer 
 Creating a module and connecting it
 ==================================================
 
-Creating a test file.php in the modules folder and add the code:
+In the modules folder, create a `test.php` file
 
 ```php
 <?php
@@ -40,7 +40,7 @@ $app->add('test', [], function (){
 });
 ```
 
-To the config/config file.php adding the line:
+Add the code to the `config/config.php` file:
 
 ```php
 return [
