@@ -19,7 +19,7 @@ $page->addAction('style', function (){
 });
 
 $page->addAction('title', function (){
-    return 'AmdPHP tytytytytyyty';
+    return 'AmdPHP';
 });
 
 $page->addAction('content', function (){
