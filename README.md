@@ -24,7 +24,8 @@ If you have changed files or added new ones, do not forget to run the `composer 
 
 ---
 
-##Creating a module and connecting it
+Creating a module and connecting it
+==================================================
 
 Creating a test file.php in the modules folder and add the code:
 
