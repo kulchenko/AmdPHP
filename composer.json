@@ -1,0 +1,16 @@
+{
+    "require": {
+        "twig/twig": "^3.0",
+        "smarty/smarty": "~3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "core\\": "core",
+            "tools\\": "tools"
+        },
+        "files": [
+            "config/system.php",
+            "config/function.php"
+        ]
+    }
+}
