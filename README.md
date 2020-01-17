@@ -1,4 +1,4 @@
-This file is part of the **AmdPHP** framework.
+AmdPHP framework.
 =============================================
 
 
